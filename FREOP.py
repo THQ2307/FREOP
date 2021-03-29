@@ -90,6 +90,7 @@ class admin_page():
 
                     # AdminWindow.mainloop()
                     # execfile('FREOP_Admin.py')
+                    
                     os.system('py FREOP_Admin.py')
                 else : 
                     messagebox.showerror('Message Box', 'Wrong Student ID or Password')
